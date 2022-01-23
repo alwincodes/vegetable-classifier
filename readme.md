@@ -1,8 +1,8 @@
-# Vegitable-classifier ML model
+# Vegetable-classifier ML model
 
 This project is my first attempt at creating a convolutional neural
 network, Through this project I trained a model which then can be
-used to categorize Vegitables to 15 categories just by inputing its
+used to categorize Vegetables to 15 categories just by inputing its
 image.
 
 ### Categories of Vegitables the model can classify
