@@ -67,26 +67,3 @@ cnn.fit(x = training_set, validation_data = test_set, epochs = 25 )
 
 cnn.save("models/vegitable_predictor")
 
-
-# cnn = tf.keras.models.load_model("models/cat_dog")
-# import numpy as np 
-# from keras.preprocessing import image
-
-# files = os.listdir("dataset/single_prediction")
-# for file in files:
-#     test_image = image.load_img(f"dataset/single_prediction/{file}", target_size = (64, 64))
-
-#     test_image = image.img_to_array(test_image)
-
-#     #adding extra dimensions because batch used for training was 32
-#     test_image = np.expand_dims(test_image, axis = 0)
-
-#     if(cnn.predict(test_image)[0][0] == 1):
-#         print("dog")
-#     else:
-#         print("cat")
-
-#     print(cnn.predict(test_image)[0][0])
-#     print(file)
-#     print("------------------")
-
