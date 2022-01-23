@@ -26,3 +26,11 @@ requirement.txt file is included which can be used with a virtual environment ge
 5. now train the model by running model-creator.py (this will take some time)
 6. now place the images that you need to classify in images_to_predict directory
 7. run classify-veg.py you will now get a prediction from the model
+
+## Screenshots
+
+The directory strucuture of this application
+![App Screenshot](https://github.com/alwincodes/vegetable-classifier/blob/main/screen-shots/directory%20structure.png?raw=true)
+
+First set of prediction done using this application
+![App Screenshot](https://github.com/alwincodes/vegetable-classifier/blob/main/screen-shots/first%20set%20of%20predictions%20using%20new%20data.png?raw=true)
